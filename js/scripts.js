@@ -6,6 +6,7 @@ function toogleDarkMode() {
     document.querySelector('.works').classList.toggle('dark');
     document.querySelector('.education').classList.toggle('dark');
     document.querySelector('.projects').classList.toggle('dark');
+    document.querySelector('.footer').classList.toggle('dark');
 }
 
 //load theme save
@@ -29,7 +30,8 @@ changeThemeBtn.addEventListener('change', () => {
         document.querySelector('.about').classList.contains('dark') &&
         document.querySelector('.works').classList.contains('dark') &&
         document.querySelector('.education').classList.contains('dark') &&
-        document.querySelector('.projects').classList.contains('dark')) {
+        document.querySelector('.projects').classList.contains('dark') &&
+        document.querySelector('.footer').classList.contains('dark')) {
         localStorage.setItem('dark', 1);
     }
 })
