@@ -238,6 +238,16 @@ input[type="checkbox"] {
     display: none;
 }
 
+#github {
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+#linkedin {
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
 #sun {
     font-size: 1.8rem;
     cursor: pointer;
